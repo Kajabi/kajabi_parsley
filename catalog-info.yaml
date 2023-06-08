@@ -10,9 +10,10 @@ metadata:
     - rails
     - gem
     - validation
+    - javascript
   annotations:
     jira/project-key: STANDARD
-    backstage.io/source-location: url:https://github.com/Kajabi/kajabi_parlsey/tree/main
+    backstage.io/source-location: url:https://github.com/Kajabi/kajabi_parlsey/tree/master
     github.com/project-slug: Kajabi/kajabi_parlsey
 spec:
   system: kajabi-products
