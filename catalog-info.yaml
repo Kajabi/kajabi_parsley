@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kajabi-parsley
+  description: |
+    Packages some form validation helpers and the Parsley js assets we use frequently in rails apps.
+  tags:
+    - parsley
+    - ruby
+    - rails
+    - gem
+    - validation
+    - javascript
+  annotations:
+    jira/project-key: STANDARD
+    backstage.io/source-location: url:https://github.com/Kajabi/kajabi_parlsey/tree/master
+    github.com/project-slug: Kajabi/kajabi_parlsey
+spec:
+  system: kajabi-products
+  type: gem
+  owner: standard-model
+  lifecycle: production
